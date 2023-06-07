@@ -30,15 +30,17 @@
 
 ### Work done:
 
-- Understanding of the data
-  - knowing the data set
-    - main db
-    - cities db
-    - chemicals db
-    - merging the dbs to as per convince [(refer dataUnderstanding.ipynb)](../../script/dataUnderstanding.ipynb)
-- Plotting bar graph the data for each chemical in a single.
-  - 6 graphs = 6 chemicals as **y** and cities as **x**
-- Discovering facts about data.
+- Understanding of the data. [(refer dataUnderstanding.ipynb)](https://github.com/YashRevannavar/Auto-ML-On-De-Pollution/blob/master/script/dataUnderstanding.ipynb)
+  - knowing the data set.
+    - main db.
+    - cities db.
+    - chemicals db.
+    - merging the dbs to as per convince.
+- Graphs [(refer graphs)](https://github.com/YashRevannavar/Auto-ML-On-De-Pollution/tree/master/graphs).
+  - Plotting bar graph the data for each chemical in a single
+    - 6 graphs = 6 chemicals as **y** and cities as **x**
+  - Correlation Matrix of all columns.
+- Discovering facts about data. [(refer dataUnderstanding.ipynb >> Facts about data)](https://github.com/YashRevannavar/Auto-ML-On-De-Pollution/blob/master/script/dataUnderstanding.ipynb)
   - The number of cities with Stickstoffmonoxid [nitric oxide] data available is: 61
   - The number of cities with Stickstoffdioxid [nitrogen dioxide] data available is: 61
   - The number of cities with Schwefeldioxid [sulfur dioxide] data available is: 7
