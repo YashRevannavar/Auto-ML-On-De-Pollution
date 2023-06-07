@@ -1,7 +1,6 @@
-text
-data
+Data
 autoMLVenv
 *.db
 *.pdf
 *.csv
-*.ods
+*.odss
