@@ -1,6 +1,5 @@
 Data
 autoMLVenv
 *.db
-*.pdf
 *.csv
 *.ods
