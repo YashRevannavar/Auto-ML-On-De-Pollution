@@ -26,7 +26,7 @@
   - Sept
     - Finishing the paper work.
 
-## Meeting 3: (05-06-2023)
+## Meeting 3: (06S-06-2023)
 
 ### Work done:
 
