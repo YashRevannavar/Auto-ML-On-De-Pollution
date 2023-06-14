@@ -48,3 +48,24 @@
   - The number of cities with PM10 data available is: 59
   - The number of cities with Ozon data available is: 29
   - The data is available from 2019-12-31 to 2022-10-01
+
+### Meeting 4: (20-06-2023)
+
+- Understanding of the data. [(refer dataUnderstanding.ipynb)](https://github.com/YashRevannavar/Auto-ML-On-De-Pollution/blob/yash-eda/script/dataUnderstanding.ipynb)
+
+  - Plotting the PM10 daily average for all city.
+  - Collected data where the wert value is greater than 35.(Table below)
+
+  | Chemical | City                   | Wert count(for 2 years 10 months) |
+  | -------- | ---------------------- | --------------------------------- |
+  | PM10     | Bottrop-Welheim        | 34                                |
+  | PM10     | Duisburg-Walsum        | 37                                |
+  | PM10     | Essen-Vogelheim        | 67                                |
+  | PM10     | Lünen-Niederaden       | 16                                |
+  | PM10     | Netphen Rothaargebirge | 05                                |
+  | PM10     | Ratingen-Tiefenbroich  | 23                                |
+  | PM10     | Simmerath (Eifel)      | 11                                |
+  | PM10     | Solingen-Wald          | 10                                |
+  | PM10     | Aachen-Burtscheid      | 14                                |
+
+
