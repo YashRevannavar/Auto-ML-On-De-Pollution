@@ -3,4 +3,4 @@ autoMLVenv
 *.db
 *.csv
 *.ods
-./text/**/*.pdf
+./texts/**/*.pdf
