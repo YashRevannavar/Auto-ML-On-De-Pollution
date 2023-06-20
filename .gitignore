@@ -3,5 +3,4 @@ autoMLVenv
 *.db
 *.csv
 *.ods
-texts
-# test
+./text/**/*.pdf
