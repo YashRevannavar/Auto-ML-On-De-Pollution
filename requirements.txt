@@ -7,3 +7,4 @@ nbformat
 meteostat
 tensorflow
 scikit-learn
+statsmodels
