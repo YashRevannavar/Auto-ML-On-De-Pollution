@@ -4,3 +4,7 @@ pandas
 seaborn
 plotly
 nbformat
+meteostat
+tensorflow
+scikit-learn
+statsmodels
