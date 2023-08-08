@@ -1,4 +1,7 @@
+# def imports():
 import numpy as np
+
+# imports()
 
 def lstmMultiSplit(df, n_past, n_future):
     """
@@ -9,6 +12,7 @@ def lstmMultiSplit(df, n_past, n_future):
     :param n_future: number of days we want to look into the future based on the past days
     :return: trainX and trainX train sets
     """
+    # imports()
     trainX = []
     trainY = []
 
@@ -20,5 +24,16 @@ def lstmMultiSplit(df, n_past, n_future):
         trainY.append(df[i + n_future - 1:i + n_future, 0])
     trainX, trainY = np.array(trainX), np.array(trainY)
     return trainX, trainY
+
+def originalToRecurring(ogUnits, period):
+    angles = 2 * np.pi * ogUnits / period
+    rcUnits = np.column_stack((np.sin(angles), np.cos(angles)))
+    return rcUnits
+
+def recurringToOrignal(rcUnits, period):
+    angles = np.arctan2(rcUnits[:, 0], rcUnits[:, 1])
+    ogUnits = (period * angles) / (2 * np.pi)
+    ogUnits = np.round(ogUnits) % period  
+    return ogUnits
 
 print("functionsAll.py loaded successfully")
