@@ -8,3 +8,5 @@ meteostat
 tensorflow
 scikit-learn
 statsmodels
+cython 
+auto-sklearn
