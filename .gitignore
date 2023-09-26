@@ -4,3 +4,8 @@ autoMLVenv
 *.csv
 *.ods
 ./texts/**/*.pdf
+models
+graphs
+newVenv
+pycaretVenv
+.nfs*
