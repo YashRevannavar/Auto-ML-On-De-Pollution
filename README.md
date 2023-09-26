@@ -1,5 +1,4 @@
 # Auto-ML-On-De-Pollution
-# PM10 Air Quality Prediction Project
 
 This project focuses on PM10 air quality prediction using a combination of Machine Learning (ML) and AutoML techniques. It includes data processing, feature engineering, model training, and evaluation notebooks.
 
